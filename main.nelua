@@ -1,8 +1,10 @@
-require 'C.stdio'
+require 'C.stdio';
 require "./penis.h"
 
 C.printf("homosexuality is a sin\n")
 C.printf("Type something:")
+
 local x: string
+
 C.scanf("%s", &x)
 C.printf("%s\n", &x)
