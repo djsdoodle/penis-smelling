@@ -1,3 +1,3 @@
 //obamas penis stretcher
 
-char penis(int a, char* b){for (int i = 0; i < a; i++){printf(b);}}
+char penis(int a, int b, char* c){for (int a = 0; a < b; a++){printf(c);}}
