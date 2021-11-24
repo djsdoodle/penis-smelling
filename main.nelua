@@ -1,5 +1,7 @@
 require "./penis.h"
 
-for i = 1, 100 do
+--[[for i = 1, 100 do
 	print("git commit suicide")
-end
+end]]--
+
+git_commit_suicide(1, 400, "amogus")
