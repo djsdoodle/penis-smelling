@@ -1,7 +1,3 @@
 require "./penis.h"
 
---[[for i = 1, 100 do
-	print("git commit suicide")
-end]]--
-
-git_commit_suicide(1, 400, "amogus")
+printx(1, 10, "amogus")
