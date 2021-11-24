@@ -1,3 +1,3 @@
 #include <stdio.h>
 #include "penis.h"
-int main(){penis(0, 10, "homo sexuality is a sin\n");}
+int main(){printf("homosexuality is a sin\n");printf("Type something:");char* x;scanf("%s", &x);printf("%s\n", &x);}
