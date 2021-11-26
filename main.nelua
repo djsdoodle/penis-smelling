@@ -1,10 +1,10 @@
-require 'C.stdio';
-require "./penis.h"
+require 'io'
+require './penis.h'
+require 'C.stdio'
 
-C.printf("homosexuality is a sin\n")
-C.printf("Type something:")
+C.printf("type how many times you can frick: ")
+local fricktimes:number = tonumber(tostring(io.read()))
+C.printf("type your name: ")
+local name = io.read()
 
-local x: string
-
-C.scanf("%s", &x)
-C.printf("%s\n", &x)
+printx(1, fricktimes, frickyou(name))
